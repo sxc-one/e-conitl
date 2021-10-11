@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T08:05:48.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="rf3KmPg58GNTHIkQ3wb3" version="15.4.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-10-11T05:23:30.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="zbvJ1Sdk7DftF0Mhf3_T" version="15.5.0" type="github" pages="16">
   <diagram id="r_dpZRQQ6k5GukbJklo0" name="业务流程图">
-    <mxGraphModel dx="946" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,7 +191,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j0jk890tXHY0PpcCtY2N" name="系统上下文">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GLUvTiBQzX47aJW1uTeo-0" />
         <mxCell id="GLUvTiBQzX47aJW1uTeo-1" parent="GLUvTiBQzX47aJW1uTeo-0" />
@@ -229,7 +229,7 @@
             <mxPoint x="2" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_JE2uhXKbqOFR6C2QaG3-0" value="英荣物流&lt;br style=&quot;font-size: 16px;&quot;&gt;进区预约系统" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;horizontal=1;fontSize=16;" parent="GLUvTiBQzX47aJW1uTeo-1" vertex="1">
+        <mxCell id="_JE2uhXKbqOFR6C2QaG3-0" value="英龙物流&lt;br style=&quot;font-size: 16px&quot;&gt;进区预约系统" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;horizontal=1;fontSize=16;" parent="GLUvTiBQzX47aJW1uTeo-1" vertex="1">
           <mxGeometry x="180" y="218.5" width="180" height="123" as="geometry" />
         </mxCell>
         <mxCell id="_JE2uhXKbqOFR6C2QaG3-3" value="短信接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="GLUvTiBQzX47aJW1uTeo-1" vertex="1">
@@ -238,12 +238,12 @@
         <mxCell id="Z6kRSgf-jV7Q28qiHfV8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GLUvTiBQzX47aJW1uTeo-1" source="Z6kRSgf-jV7Q28qiHfV8-0" target="_JE2uhXKbqOFR6C2QaG3-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z6kRSgf-jV7Q28qiHfV8-3" value="Excel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Z6kRSgf-jV7Q28qiHfV8-1" vertex="1" connectable="0">
+        <mxCell id="Z6kRSgf-jV7Q28qiHfV8-3" value="csv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Z6kRSgf-jV7Q28qiHfV8-1" vertex="1" connectable="0">
           <mxGeometry x="-0.1455" y="-4" relative="1" as="geometry">
             <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z6kRSgf-jV7Q28qiHfV8-0" value="GIFI系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="GLUvTiBQzX47aJW1uTeo-1" vertex="1">
+        <mxCell id="Z6kRSgf-jV7Q28qiHfV8-0" value="原有系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="GLUvTiBQzX47aJW1uTeo-1" vertex="1">
           <mxGeometry y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9RaaonI7zvSOU2Rofxib-0" value="WMS" style="rounded=0;whiteSpace=wrap;html=1;" parent="GLUvTiBQzX47aJW1uTeo-1" vertex="1">
@@ -2006,7 +2006,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_2IA4qmjrT-Lvu4QHgCG" name="预约送货流程图">
-    <mxGraphModel dx="946" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jxvR_FGvZUTTrVGBUvuq-0" />
         <mxCell id="jxvR_FGvZUTTrVGBUvuq-1" parent="jxvR_FGvZUTTrVGBUvuq-0" />
