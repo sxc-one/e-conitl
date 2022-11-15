@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T11:29:33.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kqqLoh0FsDrjtBu7eM-4" version="20.5.2" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2022-11-15T02:37:44.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="OMm9GKKNSOHDU0unEMm4" version="20.5.2" type="github" pages="26">
   <diagram id="r_dpZRQQ6k5GukbJklo0" name="业务流程图">
     <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3014,7 +3014,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HIEdGVU2NBRb-K2uj2ke" name="调整后的A*算法">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3232,6 +3232,132 @@
         </mxCell>
         <mxCell id="wqr0NYfOer244fEj03af-48" value="turnCost=0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="226" y="1340" width="94" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IwmvPcvVgbjO7-cZjgSL" name="订单管理模块类图">
+    <mxGraphModel dx="2178" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oTojZpByYlKPfm-XW3kh-10" value="BoBookingInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="210" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-11" value="- id: Long&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-10">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-17" value="- orderNo: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-10">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-18" value="- customsStatus: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-10">
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-19" value="- ...&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-10">
+          <mxGeometry y="104" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-10">
+          <mxGeometry y="130" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-13" value="+ setters(...)&#xa;+ getters()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-10">
+          <mxGeometry y="138" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-27" value="BoBookingInfoController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="400" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-28" value="- boBookingInfoService: IBoBookingInfoService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-27">
+          <mxGeometry y="26" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-27">
+          <mxGeometry y="52" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-30" value="+ list(BoBookingInfo): List&lt; BoBookingInfo&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-27">
+          <mxGeometry y="60" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-31" value="+ getInfo(Long): BoBookingInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-27">
+          <mxGeometry y="100" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-32" value="+ add(BoBookingInfo): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-27">
+          <mxGeometry y="140" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-33" value="+ chooseCustoms(BoBookingInfo): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-27">
+          <mxGeometry y="180" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-34" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-27">
+          <mxGeometry y="220" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px; text-align: left;&quot;&gt;IBoBookingInfoService&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectBoBookingInfoList(BoBookingInfo): List&amp;lt;BoBookingInfo&amp;gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectBoBookingInfoById(Long): BoBookingInfo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ insertBoBookingInfo(BoBookingInfo): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ chooseCustoms(BoBookingInfo): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="330" width="410" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-40" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px; text-align: left;&quot;&gt;IBoBookingInfoMapper&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectBoBookingList(BoBookingInfo): List&amp;lt;BoBookingInfo&amp;gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectBoBookingById(Long): BoBookingInfo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ insert(BoBookingInfo): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateById(BoBookingInfo): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="410" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-41" value="BoBookingInfoServiceImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="620" width="550" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-42" value="- boBookingInfoMapper: BoBookingInfoMapper" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-41">
+          <mxGeometry y="26" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-41">
+          <mxGeometry y="52" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-44" value="+ selectBoBookingInfoList(BoBookingInfo): List&lt; BoBookingInfo&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-41">
+          <mxGeometry y="60" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-45" value="+ selectBoBookingInfoById(Long): BoBookingInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-41">
+          <mxGeometry y="100" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-46" value="+ insertBoBookingInfo(BoBookingInfo): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-41">
+          <mxGeometry y="140" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-47" value="+ chooseCustoms(BoBookingInfo): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-41">
+          <mxGeometry y="180" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-48" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontSize=18;" vertex="1" parent="oTojZpByYlKPfm-XW3kh-41">
+          <mxGeometry y="220" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-49" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=18;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.006;exitY=0.453;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oTojZpByYlKPfm-XW3kh-39" target="oTojZpByYlKPfm-XW3kh-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="660" y="230" as="sourcePoint" />
+            <mxPoint x="820" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-50" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oTojZpByYlKPfm-XW3kh-41" target="oTojZpByYlKPfm-XW3kh-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1040" y="520" as="sourcePoint" />
+            <mxPoint x="1200" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-51" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oTojZpByYlKPfm-XW3kh-40" target="oTojZpByYlKPfm-XW3kh-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="930" as="sourcePoint" />
+            <mxPoint x="570" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-52" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=18;entryX=0.471;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oTojZpByYlKPfm-XW3kh-27" target="oTojZpByYlKPfm-XW3kh-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="20" y="260" as="sourcePoint" />
+            <mxPoint x="180" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-53" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oTojZpByYlKPfm-XW3kh-39" target="oTojZpByYlKPfm-XW3kh-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="190" as="sourcePoint" />
+            <mxPoint x="1060" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="795" y="121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oTojZpByYlKPfm-XW3kh-54" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oTojZpByYlKPfm-XW3kh-40" target="oTojZpByYlKPfm-XW3kh-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="250" as="sourcePoint" />
+            <mxPoint x="860" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="740" />
+              <mxPoint y="120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
