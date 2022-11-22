@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:28:11.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HDDgcgSFVWBvIsaanSJf" version="20.5.3" type="github" pages="28">
+<mxfile host="app.diagrams.net" modified="2022-11-22T13:00:18.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MMUxApFp9ks_9kexstRv" version="20.5.3" type="github" pages="29">
   <diagram id="r_dpZRQQ6k5GukbJklo0" name="业务流程图">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3600,6 +3600,73 @@
               <mxPoint x="-40" y="740" />
               <mxPoint x="-40" y="121" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9pufStVochOERBFg0KBs" name="仓库管理模块流程图">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-1" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="aSNfOMQh3nqbaSCaAtda-2" target="aSNfOMQh3nqbaSCaAtda-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="343" y="20" width="64" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="aSNfOMQh3nqbaSCaAtda-4" target="aSNfOMQh3nqbaSCaAtda-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-4" value="登录系统" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-5" value="验收货物" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;sourcePerimeterSpacing=1;targetPerimeterSpacing=0;strokeColor=#01010F;" edge="1" parent="1" source="aSNfOMQh3nqbaSCaAtda-7" target="aSNfOMQh3nqbaSCaAtda-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-7" value="绑定货位" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-14" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="343" y="570" width="64" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;sourcePerimeterSpacing=1;targetPerimeterSpacing=0;strokeColor=#01010F;" edge="1" parent="1" source="aSNfOMQh3nqbaSCaAtda-16" target="aSNfOMQh3nqbaSCaAtda-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-16" value="新增集装箱信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;startArrow=none;startFill=0;endArrow=classic;endFill=1;sourcePerimeterSpacing=1;targetPerimeterSpacing=0;strokeColor=#01010F;" edge="1" parent="1" source="aSNfOMQh3nqbaSCaAtda-18" target="aSNfOMQh3nqbaSCaAtda-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-18" value="新建预配清单、选择待出库明细并提交" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aSNfOMQh3nqbaSCaAtda-20" target="aSNfOMQh3nqbaSCaAtda-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-20" value="关联集装箱号" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aSNfOMQh3nqbaSCaAtda-22" target="aSNfOMQh3nqbaSCaAtda-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-22" value="确认装箱" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-23" value="取货出库" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aSNfOMQh3nqbaSCaAtda-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aSNfOMQh3nqbaSCaAtda-23" target="aSNfOMQh3nqbaSCaAtda-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="600" as="sourcePoint" />
+            <mxPoint x="520" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
