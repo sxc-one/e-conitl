@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T06:12:03.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="W5S6d2eXn0Lk7exujQs7" version="20.5.3" type="github" pages="28">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:28:11.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HDDgcgSFVWBvIsaanSJf" version="20.5.3" type="github" pages="28">
   <diagram id="r_dpZRQQ6k5GukbJklo0" name="业务流程图">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,7 +191,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j0jk890tXHY0PpcCtY2N" name="系统上下文">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GLUvTiBQzX47aJW1uTeo-0" />
         <mxCell id="GLUvTiBQzX47aJW1uTeo-1" parent="GLUvTiBQzX47aJW1uTeo-0" />
@@ -256,7 +256,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Ku7UV8j8634HL0u4ZJ9" name="订单报关状态图-简化">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ICorGSCDI_sK7Jl8in8o-0" />
         <mxCell id="ICorGSCDI_sK7Jl8in8o-1" parent="ICorGSCDI_sK7Jl8in8o-0" />
@@ -364,7 +364,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WBIahR8-ODn9EsiNLG-y" name="订单送货状态图-简单">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="S9yzOXGg-rlqR6XcXJCb-0" />
         <mxCell id="S9yzOXGg-rlqR6XcXJCb-1" parent="S9yzOXGg-rlqR6XcXJCb-0" />
@@ -452,7 +452,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oHchW0YiF47yJrdBq1iX" name="订单明细状态">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_ldEek01dWn288goBROa-0" />
         <mxCell id="_ldEek01dWn288goBROa-1" parent="_ldEek01dWn288goBROa-0" />
@@ -630,7 +630,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6ijdAoBqBcJsme1R6xW2" name="报关资料状态">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fQF4cIpYWBqpwaP4Sznh-0" />
         <mxCell id="fQF4cIpYWBqpwaP4Sznh-1" parent="fQF4cIpYWBqpwaP4Sznh-0" />
@@ -722,7 +722,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h0q72thftM1mLwVmS1uI" name="预约送货状态">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NrGTdXwKsuSvhwLVD3kB-0" />
         <mxCell id="NrGTdXwKsuSvhwLVD3kB-1" parent="NrGTdXwKsuSvhwLVD3kB-0" />
@@ -1307,7 +1307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="swtRr1QWvug7UBX4C43w" name="ER图">
-    <mxGraphModel dx="2178" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="urnf3qFD-qRXzGiQsezQ-0" />
         <mxCell id="urnf3qFD-qRXzGiQsezQ-1" parent="urnf3qFD-qRXzGiQsezQ-0" />
@@ -1753,7 +1753,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TMd-RcOGvUJYxip0PpGh" name="订单管理流程图">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1LqfN9qNRSQehrmAuOB4-0" />
         <mxCell id="1LqfN9qNRSQehrmAuOB4-1" parent="1LqfN9qNRSQehrmAuOB4-0" />
@@ -1831,7 +1831,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-H6Xv-HUOT5fCbk_kocg" name="报关管理流程图">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="H7NWQG_9JI_Z1pNRbuOP-0" />
         <mxCell id="H7NWQG_9JI_Z1pNRbuOP-1" parent="H7NWQG_9JI_Z1pNRbuOP-0" />
@@ -1934,7 +1934,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_2IA4qmjrT-Lvu4QHgCG" name="预约送货流程图">
-    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jxvR_FGvZUTTrVGBUvuq-0" />
         <mxCell id="jxvR_FGvZUTTrVGBUvuq-1" parent="jxvR_FGvZUTTrVGBUvuq-0" />
@@ -2020,7 +2020,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qk8vLNQW85Iip0j_Q0YY" name="技术架构图">
-    <mxGraphModel dx="1455" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lZp2m0dKpOkG8BDcCI3z-0" />
         <mxCell id="lZp2m0dKpOkG8BDcCI3z-1" parent="lZp2m0dKpOkG8BDcCI3z-0" />
@@ -2111,7 +2111,7 @@
         <mxCell id="FADQ2gK09I8ihE6fLa-h-30" value="订单管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ae4132;fillColor=#fad9d5;" parent="lZp2m0dKpOkG8BDcCI3z-1" vertex="1">
           <mxGeometry x="279" y="290" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FADQ2gK09I8ihE6fLa-h-31" value="备案管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ae4132;fillColor=#fad9d5;" parent="lZp2m0dKpOkG8BDcCI3z-1" vertex="1">
+        <mxCell id="FADQ2gK09I8ihE6fLa-h-31" value="报关管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ae4132;fillColor=#fad9d5;" parent="lZp2m0dKpOkG8BDcCI3z-1" vertex="1">
           <mxGeometry x="360" y="290" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FADQ2gK09I8ihE6fLa-h-32" value="送货管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#ae4132;fillColor=#fad9d5;" parent="lZp2m0dKpOkG8BDcCI3z-1" vertex="1">
@@ -2196,7 +2196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OqRJtCcjPL255Mj6dPdB" name="订单时序图">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Jgi5h89A3VnxaonRmYCw-0" />
         <mxCell id="Jgi5h89A3VnxaonRmYCw-1" parent="Jgi5h89A3VnxaonRmYCw-0" />
